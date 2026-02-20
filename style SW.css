@@ -1,0 +1,78 @@
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #FFFFFF; 
+color: #22333B;
+margin: 0;
+padding: 0;
+}
+
+.container.main-box {
+max-width: 500px;
+margin: 40px auto;
+background-color: #EAE0D5; 
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+font-weight: 700;
+margin-bottom: 30px;
+text-align: center;
+color: #5E503F;
+}
+
+h3#output {
+margin-top: 25px;
+padding: 15px;
+background-color: #22333B;
+color: #EAE0D5;
+border-radius: 12px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+label.form-label {
+font-weight: 600;
+margin-top: 15px;
+color: #5E503F;
+}
+
+.form-select {
+border-radius: 12px;
+padding: 8px 12px;
+margin-top: 5px;
+border: 2px solid #C6AC8F;
+background-color: #FFFFFF;
+color: #22333B;
+transition: all 0.3s ease;
+}
+
+.form-select:focus {
+outline: none;    
+border-color: #5E503F;
+box-shadow: 0 0 6px rgba(94, 80, 63, 0.4);
+}
+
+button.btn-dark {
+background-color: #C6AC8F;
+border: none;
+border-radius: 12px;
+font-weight: 600;
+transition: all 0.3s ease;
+color: #0A0908;
+padding: 10px 20px;
+}
+
+button.btn-dark:hover {
+background-color: #5E503F; 
+color: #FFFFFF;
+}
+
+.footer {
+margin-top: 60px;
+background-color: #22333B;
+color: #C6AC8F;
+padding: 15px;
+font-weight: 400;
+letter-spacing: 2px;
+}
